@@ -6549,7 +6549,8 @@ header {
   margin-bottom: 30px;
   background: #4f4a5f;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  height: 50px; }
   .nav-container #navbar-collapse {
     max-width: 1200px;
     margin-left: auto;
@@ -6561,7 +6562,7 @@ header {
     font-size: 16px; }
     .nav-container .main-navigation a {
       color: #fff;
-      padding: 20px 25px 15px; }
+      padding: 15px 25px 10px; }
     .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
     .nav-container .main-navigation li.active-trail, .nav-container .main-navigation li:hover {
       background: #615f72; }
