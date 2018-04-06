@@ -30,7 +30,8 @@ $oswald: 'Oswald', sans-serif;
 
 
 body {
-        font-family: $oswald;
+        font-family: $roboto;
+        color: #444;
 }
 
 // headings
@@ -70,6 +71,11 @@ h3 {
                 border-bottom: 5px solid $lightindigo;
         }
 }
+
+.navbar-collapse.collapse {
+        background: $darkgray;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
