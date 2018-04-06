@@ -6503,14 +6503,34 @@ a .glyphicon.icon-after {
   margin-left: .25em;
   margin-right: -.25em; }
 
+body {
+  font-family: "Oswald", sans-serif; }
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  color: #2d3584; }
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  color: #4f4a5f; }
+
+h3 {
+  font-family: "Roboto Slab", serif;
+  color: #096ab1; }
+
 .navbar.container {
   width: 100% !important;
   max-width: 100% !important; }
 
-#navbar {
+.main-navigation {
   background: #4f4a5f;
   color: #fff; }
-  #navbar a {
+  .main-navigation a {
     color: #fff; }
+  .main-navigation li.active-trail {
+    border-bottom: 5px solid #9ea0cd; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: #4a4b94; }
 
 /*# sourceMappingURL=style.css.map */

@@ -20,10 +20,33 @@ $blue: #096ab1;
 $medblue: #5081c0;
 $lightblue: #87a1d1;
 
-$gold: #096ab1;
-$medgold: #5081c0;
-$lightgold: #87a1d1;
+$gold: #eaa02e;
+$medgold: #ecb36d;
+$lightgold: #ecd2ba;
 
+// fonts
+$roboto: 'Roboto Slab', serif;
+$oswald: 'Oswald', sans-serif;
+
+
+body {
+        font-family: $oswald;
+}
+
+// headings
+
+h1 {
+        font-family: $roboto;
+        color: $indigo;
+}
+h2 {
+        font-family: $oswald;
+        color: $darkgray;
+}
+h3 {
+        font-family: $roboto;
+        color: $blue;
+}
 
 // header
 .navbar.container {
@@ -36,11 +59,25 @@ $lightgold: #87a1d1;
 // menu
 
 
-
-#navbar {
+.main-navigation {
         background: $darkgray;
         color: #fff;
+
         a {
                 color: #fff;
         }
+        li.active-trail {
+                border-bottom: 5px solid $lightindigo;
+        }
 }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+        background: $medindigo;
+}
+
+
+
+
+
+// pages
