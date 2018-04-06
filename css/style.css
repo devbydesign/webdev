@@ -6509,7 +6509,8 @@ body {
 
 h1 {
   font-family: "Roboto Slab", serif;
-  color: #2d3584; }
+  color: #2d3584;
+  font-size: 40px; }
 
 h2 {
   font-family: "Oswald", sans-serif;
@@ -6517,19 +6518,62 @@ h2 {
 
 h3 {
   font-family: "Roboto Slab", serif;
+  font-size: 22px;
   color: #096ab1; }
+
+header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d3584+0,2d3584+50,ffffff+50,ffffff+100 */
+  background: #2d3584;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #2d3584 0%, #2d3584 50%, #ffffff 50%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #2d3584 0%, #2d3584 50%, #ffffff 50%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #2d3584 0%, #2d3584 50%, #ffffff 50%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#$indigo', endColorstr='#ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
 
 .navbar.container {
   width: 100% !important;
   max-width: 100% !important; }
 
-.main-navigation {
-  background: #4f4a5f;
-  color: #fff; }
-  .main-navigation a {
-    color: #fff; }
-  .main-navigation li.active-trail {
-    border-bottom: 5px solid #9ea0cd; }
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  color: #4f4a5f;
+  font-weight: bold;
+  font-size: 40px; }
+
+.nav-container {
+  margin-bottom: 30px; }
+  .nav-container .main-navigation {
+    background: #4f4a5f;
+    color: #fff;
+    font-family: "Oswald", sans-serif; }
+    .nav-container .main-navigation a {
+      color: #fff; }
+    .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
+    .nav-container .main-navigation li.active-trail, .nav-container .main-navigation li:hover {
+      background: #615f72; }
+    .nav-container .main-navigation li.active-trail {
+      border-bottom: 5px solid #9ea0cd; }
+
+#navbar {
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg); }
+  #navbar > .container {
+    border-left: 7px solid #eaa02e; }
+
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+  -webkit-transform: skewX(10deg);
+  -moz-transform: skewX(10deg);
+  -ms-transform: skewX(10deg);
+  transform: skewX(10deg); }
 
 .navbar-collapse.collapse {
   background: #4f4a5f; }

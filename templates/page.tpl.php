@@ -100,7 +100,7 @@
             </div>
         </div>
       </div>
-    <div class="header-bottom">
+    <div class="nav-container">
             <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
               <div class="navbar-collapse collapse" id="navbar-collapse">
                 <nav role="navigation" class="main-navigation">

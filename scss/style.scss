@@ -52,29 +52,66 @@ h3 {
 }
 
 // header
+header {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d3584+0,2d3584+50,ffffff+50,ffffff+100 */
+        background: $indigo; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, $indigo 0%, $indigo 50%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, $indigo 0%,$indigo 50%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, $indigo 0%,$indigo 50%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#$indigo', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 .navbar.container {
         width: 100%!important;
         max-width: 100%!important;
 }
 
-
+.navbar-brand {
+        font-family: $oswald;
+        color: $darkgray;
+        font-weight: bold;
+        font-size: 40px;
+}
 
 // menu
-
-
-.main-navigation {
-        background: $darkgray;
-        color: #fff;
-
-        a {
+.nav-container {
+        margin-bottom: 30px;
+        .main-navigation {
+                background: $darkgray;
                 color: #fff;
+                font-family: $oswald;
+                a {
+                        color: #fff;
+                }
+                .nav > li > a:hover, .nav > li > a:focus,
+                li.active-trail, li:hover {
+                        background: $medgray;
+                }
+                li.active-trail {
+                        border-bottom: 5px solid $lightindigo;
+                }
+
         }
-        li.active-trail, li:hover {
-                background: $medgray;
+}
+
+//skew edge of navbar-header container
+#navbar {
+        -webkit-transform: skewX(-10deg);
+        -moz-transform: skewX(-10deg);
+        -ms-transform: skewX(-10deg);
+        transform: skewX(-10deg);
+        & > .container {
+                border-left: 7px solid $gold;
+
         }
-        li.active-trail {
-                border-bottom: 5px solid $lightindigo;
-        }
+}
+
+
+// skew inside back to normal
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+        -webkit-transform: skewX(10deg);
+        -moz-transform: skewX(10deg);
+        -ms-transform: skewX(10deg);
+        transform: skewX(10deg);
 }
 
 .navbar-collapse.collapse {
