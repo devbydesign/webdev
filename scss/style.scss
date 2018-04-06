@@ -1,0 +1,46 @@
+// Default variables.
+@import 'default-variables';
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Colors
+$darkgray: #4f4a5f;
+$medgray: #615f72;
+$lightgray: #888498;
+
+$indigo: #2d3584;
+$medindigo: #4a4b94;
+$lightindigo: #9ea0cd;
+
+$blue: #096ab1;
+$medblue: #5081c0;
+$lightblue: #87a1d1;
+
+$gold: #096ab1;
+$medgold: #5081c0;
+$lightgold: #87a1d1;
+
+
+// header
+.navbar.container {
+        width: 100%!important;
+        max-width: 100%!important;
+}
+
+
+
+// menu
+
+
+
+#navbar {
+        background: $darkgray;
+        color: #fff;
+        a {
+                color: #fff;
+        }
+}
