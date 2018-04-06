@@ -67,18 +67,30 @@ header {
 
 .navbar-brand {
         font-family: $oswald;
+        text-transform: uppercase;
         color: $darkgray;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
 }
 
 // menu
 .nav-container {
         margin-bottom: 30px;
+        background: $darkgray;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        #navbar-collapse {
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+        }
         .main-navigation {
-                background: $darkgray;
+
                 color: #fff;
                 font-family: $oswald;
+                text-transform: uppercase;
+                font-size: 16px;
                 a {
                         color: #fff;
                 }
@@ -95,6 +107,7 @@ header {
 
 //skew edge of navbar-header container
 #navbar {
+        background: #fff;
         -webkit-transform: skewX(-10deg);
         -moz-transform: skewX(-10deg);
         -ms-transform: skewX(-10deg);
