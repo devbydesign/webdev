@@ -39,6 +39,7 @@ body {
 h1 {
         font-family: $roboto;
         color: $indigo;
+        font-size: 40px;
 }
 h2 {
         font-family: $oswald;
@@ -46,6 +47,7 @@ h2 {
 }
 h3 {
         font-family: $roboto;
+        font-size: 22px;
         color: $blue;
 }
 
@@ -66,6 +68,9 @@ h3 {
 
         a {
                 color: #fff;
+        }
+        li.active-trail, li:hover {
+                background: $medgray;
         }
         li.active-trail {
                 border-bottom: 5px solid $lightindigo;
