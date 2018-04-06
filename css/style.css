@@ -6548,7 +6548,6 @@ header {
 .nav-container {
   margin-bottom: 30px;
   background: #4f4a5f;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
   .nav-container #navbar-collapse {
@@ -6561,7 +6560,8 @@ header {
     text-transform: uppercase;
     font-size: 16px; }
     .nav-container .main-navigation a {
-      color: #fff; }
+      color: #fff;
+      padding: 20px 25px 15px; }
     .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
     .nav-container .main-navigation li.active-trail, .nav-container .main-navigation li:hover {
       background: #615f72; }
