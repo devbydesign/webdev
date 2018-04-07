@@ -6595,16 +6595,26 @@ header {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background: #4a4b94; }
 
-.button {
+.button, a.button {
   padding: 8px 30px;
-  background: #096ab1; }
-  .button.blue {
+  background: #096ab1;
+  color: #fff;
+  text-decoration: none;
+  margin: 20px 0px; }
+  .button.blue, a.button.blue {
     background: #096ab1; }
-    .button.blue:hover {
+    .button.blue:hover, a.button.blue:hover {
       background: #5081c0; }
-  .button.gold {
+  .button.gold, a.button.gold {
     background: #eaa02e; }
-    .button.gold:hover {
+    .button.gold:hover, a.button.gold:hover {
       background: #ecb36d; }
+
+.centered {
+  margin-left: auto;
+  margin-right: auto; }
+
+.center-text {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

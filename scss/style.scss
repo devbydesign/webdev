@@ -147,9 +147,17 @@ header {
 
 // classes
 
-.button {
+.button, a.button {
         padding: 8px 30px;
         background: $blue;
+        color: #fff;
+        text-decoration: none;
+        //a {
+        //        color: #fff;
+        //        text-decoration: none;
+        //}
+
+        margin: 20px 0px;
 
         &.blue {
                 background: $blue;
@@ -163,6 +171,13 @@ header {
                         background: $medgold;
                 }
         }
+}
+.centered {
+        margin-left: auto;
+        margin-right: auto;
+}
+.center-text {
+        text-align: center;
 }
 
 
