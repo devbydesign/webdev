@@ -145,4 +145,26 @@ header {
 
 
 
+// classes
+
+.button {
+        padding: 8px 30px;
+        background: $blue;
+
+        &.blue {
+                background: $blue;
+                &:hover {
+                        background: $medblue;
+                }
+        }
+        &.gold {
+                background: $gold;
+                &:hover {
+                        background: $medgold;
+                }
+        }
+}
+
+
+
 // pages

@@ -6595,4 +6595,16 @@ header {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background: #4a4b94; }
 
+.button {
+  padding: 8px 30px;
+  background: #096ab1; }
+  .button.blue {
+    background: #096ab1; }
+    .button.blue:hover {
+      background: #5081c0; }
+  .button.gold {
+    background: #eaa02e; }
+    .button.gold:hover {
+      background: #ecb36d; }
+
 /*# sourceMappingURL=style.css.map */
