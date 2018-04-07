@@ -6600,6 +6600,8 @@ header {
   background: #096ab1;
   color: #fff;
   text-decoration: none;
+  display: block;
+  max-width: 200px;
   margin: 20px 0px; }
   .button.blue, a.button.blue {
     background: #096ab1; }
@@ -6609,6 +6611,8 @@ header {
     background: #eaa02e; }
     .button.gold:hover, a.button.gold:hover {
       background: #ecb36d; }
+  .button.wide, a.button.wide {
+    max-width: 300px; }
 
 .centered {
   margin-left: auto;

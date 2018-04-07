@@ -152,12 +152,14 @@ header {
         background: $blue;
         color: #fff;
         text-decoration: none;
+        display: block;
+        max-width: 200px;
         //a {
         //        color: #fff;
         //        text-decoration: none;
         //}
 
-        margin: 20px 0px;
+        margin: 20px 0px 30px;
 
         &.blue {
                 background: $blue;
@@ -170,6 +172,9 @@ header {
                 &:hover {
                         background: $medgold;
                 }
+        }
+        &.wide {
+                max-width: 300px;
         }
 }
 .centered {
