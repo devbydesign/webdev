@@ -6602,7 +6602,7 @@ header {
   text-decoration: none;
   display: block;
   max-width: 200px;
-  margin: 20px 0px; }
+  margin: 20px 0px 30px; }
   .button.blue, a.button.blue {
     background: #096ab1; }
     .button.blue:hover, a.button.blue:hover {
@@ -6620,5 +6620,10 @@ header {
 
 .center-text {
   text-align: center; }
+
+.views-field.views-field-field-profile {
+  float: left;
+  margin: 20px 20px 50px 0px;
+  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
