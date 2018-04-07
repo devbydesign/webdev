@@ -93,11 +93,12 @@ header {
                 font-size: 16px;
                 a {
                         color: #fff;
-                        padding: 15px 25px 10px;
+                        padding: 15px 40px 10px;
                 }
                 .nav > li > a:hover, .nav > li > a:focus,
                 li.active-trail, li:hover {
                         background: $medgray;
+                        border-bottom: 5px solid $medgray;
                 }
                 li.active-trail {
                         border-bottom: 5px solid $lightindigo;

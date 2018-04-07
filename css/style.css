@@ -6562,10 +6562,11 @@ header {
     font-size: 16px; }
     .nav-container .main-navigation a {
       color: #fff;
-      padding: 15px 25px 10px; }
+      padding: 15px 40px 10px; }
     .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
     .nav-container .main-navigation li.active-trail, .nav-container .main-navigation li:hover {
-      background: #615f72; }
+      background: #615f72;
+      border-bottom: 5px solid #615f72; }
     .nav-container .main-navigation li.active-trail {
       border-bottom: 5px solid #9ea0cd; }
 
