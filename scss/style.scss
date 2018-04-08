@@ -29,6 +29,22 @@ $roboto: 'Roboto Slab', serif;
 $oswald: 'Oswald', sans-serif;
 
 
+// mixins
+@mixin inner-page-width() {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        @media (min-width: 768px) {
+                width: 750px;
+        }
+        @media (min-width: 992px) {
+                width: 970px;
+        }
+}
+
+
+
 body {
         font-family: $roboto;
         color: #444;
@@ -190,6 +206,7 @@ header {
 // pages
 
 // home page front
+
 .front {
 
         .main-container.container {
@@ -197,17 +214,7 @@ header {
                 padding: 0px;
         }
         .inner-page-width {
-                margin-right: auto;
-                margin-left: auto;
-                padding-left: 15px;
-                padding-right: 15px;
-                @media (min-width: 768px) {
-                        width: 750px;
-                }
-                @media (min-width: 992px) {
-                        width: 970px;
-                }
-
+                @include inner-page-width() ;
         }
 }
 
@@ -276,9 +283,10 @@ header {
                 background: $blue;
         }
         .inner-section {
-                max-width: 1200px;
-                margin-left: auto;
-                margin-right: auto;
+                //max-width: 1200px;
+                //margin-left: auto;
+                //margin-right: auto;
+                @include inner-page-width();
                 padding: 30px;
         }
 }

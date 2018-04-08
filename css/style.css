@@ -6656,10 +6656,17 @@ header {
   .color-section.blue {
     background: #096ab1; }
   .color-section .inner-section {
-    max-width: 1200px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     padding: 30px; }
+    @media (min-width: 768px) {
+      .color-section .inner-section {
+        width: 750px; } }
+    @media (min-width: 992px) {
+      .color-section .inner-section {
+        width: 970px; } }
 
 .view-about-us .views-field.views-field-field-profile {
   float: left;
