@@ -9,6 +9,7 @@
 
 // Colors
 $darkgray: #4f4a5f;
+$darkgray: #444444; // no color tint version
 $medgray: #615f72;
 $lightgray: #888498;
 
@@ -210,6 +211,9 @@ header {
         color: #fff;
         h2, h3, h4 {
                 color: #fff;
+        }
+        .footer-inner {
+                @include inner-page-width();
         }
 }
 

@@ -6514,7 +6514,7 @@ h1 {
 
 h2 {
   font-family: "Oswald", sans-serif;
-  color: #4f4a5f;
+  color: #444444;
   font-weight: 400;
   font-size: 32px; }
 
@@ -6543,13 +6543,13 @@ header {
 .navbar-brand {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  color: #4f4a5f;
+  color: #444444;
   font-weight: bold;
   font-size: 30px; }
 
 .nav-container {
   margin-bottom: 30px;
-  background: #4f4a5f;
+  background: #444444;
   margin-left: auto;
   margin-right: auto;
   height: 50px; }
@@ -6590,7 +6590,7 @@ header {
   transform: skewX(10deg); }
 
 .navbar-collapse.collapse {
-  background: #4f4a5f; }
+  background: #444444; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background: #4a4b94; }
@@ -6623,10 +6623,21 @@ header {
   text-align: center; }
 
 .footer {
-  background: #4f4a5f;
+  background: #444444;
   color: #fff; }
   .footer h2, .footer h3, .footer h4 {
     color: #fff; }
+  .footer .footer-inner {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .footer .footer-inner {
+        width: 750px; } }
+    @media (min-width: 992px) {
+      .footer .footer-inner {
+        width: 970px; } }
 
 .front .main-container.container {
   width: 100%;
