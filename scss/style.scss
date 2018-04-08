@@ -190,6 +190,27 @@ header {
 // pages
 
 // home page front
+.front {
+
+        .main-container.container {
+                width: 100%;
+                padding: 0px;
+        }
+        .inner-page-width {
+                margin-right: auto;
+                margin-left: auto;
+                padding-left: 15px;
+                padding-right: 15px;
+                @media (min-width: 768px) {
+                        width: 750px;
+                }
+                @media (min-width: 992px) {
+                        width: 970px;
+                }
+
+        }
+}
+
 
 .color-section {
         width: 100%;

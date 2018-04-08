@@ -6621,6 +6621,22 @@ header {
 .center-text {
   text-align: center; }
 
+.front .main-container.container {
+  width: 100%;
+  padding: 0px; }
+
+.front .inner-page-width {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .front .inner-page-width {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .front .inner-page-width {
+      width: 970px; } }
+
 .color-section {
   width: 100%; }
   .color-section.bigger-right {
