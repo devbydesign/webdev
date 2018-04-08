@@ -168,6 +168,7 @@ header {
         background: $blue;
         color: #fff;
         text-decoration: none;
+        text-align: center;
         display: block;
         max-width: 200px;
         //a {
@@ -233,6 +234,7 @@ header {
         width: 100%;
         h2 {
                 text-align: center;
+                margin-bottom: 20px;
         }
 
         &.bigger-right {
