@@ -189,6 +189,23 @@ header {
 
 // pages
 
+// home page front
+
+.color-sections {
+        width: 100%;
+        color: #fff;
+        h2, h3, h4 {
+                color: #fff;
+        }
+        &.indigo {
+                background: $indigo;
+        }
+        &.blue {
+                background: $blue;
+        }
+}
+
+
 
 // about page
 .view-about-us {

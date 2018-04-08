@@ -6621,6 +6621,16 @@ header {
 .center-text {
   text-align: center; }
 
+.color-sections {
+  width: 100%;
+  color: #fff; }
+  .color-sections h2, .color-sections h3, .color-sections h4 {
+    color: #fff; }
+  .color-sections.indigo {
+    background: #2d3584; }
+  .color-sections.blue {
+    background: #096ab1; }
+
 .view-about-us .views-field.views-field-field-profile {
   float: left;
   margin: 20px 20px 50px 0px;
