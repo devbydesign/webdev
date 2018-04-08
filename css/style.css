@@ -6621,6 +6621,12 @@ header {
 .center-text {
   text-align: center; }
 
+.footer {
+  background: #4f4a5f;
+  color: #fff; }
+  .footer h2, .footer h3, .footer h4 {
+    color: #fff; }
+
 .front .main-container.container {
   width: 100%;
   padding: 0px; }

@@ -174,7 +174,10 @@
 </div>
 
 <?php if (!empty($page['footer'])): ?>
-  <footer class="footer <?php print $container_class; ?>">
-    <?php print render($page['footer']); ?>
-  </footer>
+    <footer class="footer ">
+        <div class="footer-inner">
+            <?php print render($page['footer']); ?>
+        </div>
+
+    </footer>
 <?php endif; ?>
