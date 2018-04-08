@@ -6623,6 +6623,14 @@ header {
 
 .color-section {
   width: 100%; }
+  .color-section.bigger-right {
+    -webkit-clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 86%);
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 86%); }
+    .color-section.bigger-right.top-section {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw)); }
+  .color-section.bigger-left {
+    -webkit-clip-path: polygon(0 0, 100% 13%, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0 100%); }
   .color-section:not(.white) {
     color: #fff; }
     .color-section:not(.white) h2, .color-section:not(.white) h3, .color-section:not(.white) h4 {
