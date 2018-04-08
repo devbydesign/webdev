@@ -6638,6 +6638,9 @@ header {
     @media (min-width: 992px) {
       .footer .footer-inner {
         width: 970px; } }
+  .footer .region.region-footer {
+    display: flex;
+    justify-content: space-between; }
 
 .front .main-container.container {
   width: 100%;

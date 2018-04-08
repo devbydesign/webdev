@@ -215,6 +215,10 @@ header {
         .footer-inner {
                 @include inner-page-width();
         }
+        .region.region-footer {
+                display: flex;
+                justify-content: space-between;
+        }
 }
 
 
