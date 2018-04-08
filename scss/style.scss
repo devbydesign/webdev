@@ -231,6 +231,9 @@ header {
 
 .color-section {
         width: 100%;
+        h2 {
+                text-align: center;
+        }
 
         &.bigger-right {
         //        clip-path: polygon(
@@ -277,6 +280,7 @@ header {
                 //);
                 -webkit-clip-path: polygon(0 0, 100% 13%, 100% 85%, 0 100%);
                 clip-path: polygon(0 0, 100% 14%, 100% 86%, 0 100%);
+                padding: 20px 0px 30px;
         }
 
         &:not(.white) {
