@@ -6631,6 +6631,11 @@ header {
     background: #2d3584; }
   .color-section.blue {
     background: #096ab1; }
+  .color-section .inner-section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px; }
 
 .view-about-us .views-field.views-field-field-profile {
   float: left;
