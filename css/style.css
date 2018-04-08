@@ -6514,7 +6514,7 @@ h1 {
 
 h2 {
   font-family: "Oswald", sans-serif;
-  color: #444444;
+  color: #515058;
   font-weight: 400;
   font-size: 32px; }
 
@@ -6543,13 +6543,13 @@ header {
 .navbar-brand {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  color: #444444;
+  color: #515058;
   font-weight: bold;
   font-size: 30px; }
 
 .nav-container {
   margin-bottom: 30px;
-  background: #444444;
+  background: #515058;
   margin-left: auto;
   margin-right: auto;
   height: 50px; }
@@ -6567,7 +6567,7 @@ header {
       padding: 15px 40px 10px; }
     .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
     .nav-container .main-navigation li.active-trail, .nav-container .main-navigation li:hover {
-      background: #615f72; }
+      background: #515058; }
     .nav-container .main-navigation li.active-trail {
       border-bottom: 5px solid #9ea0cd; }
 
@@ -6590,7 +6590,7 @@ header {
   transform: skewX(10deg); }
 
 .navbar-collapse.collapse {
-  background: #444444; }
+  background: #515058; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background: #4a4b94; }
@@ -6627,7 +6627,7 @@ header {
   text-align: center; }
 
 .footer {
-  background: #444444;
+  background: #515058;
   color: #fff; }
   .footer h2, .footer h3, .footer h4 {
     color: #fff; }
