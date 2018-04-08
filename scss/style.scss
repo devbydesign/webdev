@@ -191,9 +191,18 @@ header {
 
 
 // about page
-
-.views-field.views-field-field-profile {
-        float: left;
-        margin: 20px 20px 50px 0px;
-        height: 100%;
+.view-about-us {
+        .views-field.views-field-field-profile {
+                float: left;
+                margin: 20px 20px 50px 0px;
+                height: 100%;
+        }
+        .views-row {
+                display: flex;
+                justify-content: space-between;
+        }
+        .profile-right-section.views-fieldset {
+                width: auto;
+                width: 70%;
+        }
 }
