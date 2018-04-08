@@ -191,12 +191,16 @@ header {
 
 // home page front
 
-.color-sections {
+.color-section {
         width: 100%;
-        color: #fff;
-        h2, h3, h4 {
+
+        &:not(.white) {
                 color: #fff;
+                h2, h3, h4 {
+                        color: #fff;
+                }
         }
+
         &.indigo {
                 background: $indigo;
         }

@@ -6621,14 +6621,15 @@ header {
 .center-text {
   text-align: center; }
 
-.color-sections {
-  width: 100%;
-  color: #fff; }
-  .color-sections h2, .color-sections h3, .color-sections h4 {
+.color-section {
+  width: 100%; }
+  .color-section:not(.white) {
     color: #fff; }
-  .color-sections.indigo {
+    .color-section:not(.white) h2, .color-section:not(.white) h3, .color-section:not(.white) h4 {
+      color: #fff; }
+  .color-section.indigo {
     background: #2d3584; }
-  .color-sections.blue {
+  .color-section.blue {
     background: #096ab1; }
 
 .view-about-us .views-field.views-field-field-profile {
