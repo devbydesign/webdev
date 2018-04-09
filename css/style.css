@@ -6526,6 +6526,21 @@ h3 {
 h5 {
   font-weight: bold; }
 
+a {
+  color: #096ab1; }
+
+a:hover, a:active {
+  color: #5081c0; }
+
+.indigo-text {
+  color: #2d3584; }
+
+.blue-text {
+  color: #096ab1; }
+
+.gold-text {
+  color: #eaa02e; }
+
 header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d3584+0,2d3584+50,ffffff+50,ffffff+100 */
   background: #2d3584;

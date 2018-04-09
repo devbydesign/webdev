@@ -83,6 +83,28 @@ h5 {
         font-weight: bold;
 }
 
+
+a {
+        color: $blue;
+}
+a:hover, a:active {
+        color: $medblue;
+}
+
+// classes
+.indigo-text {
+        color: $indigo;
+}
+.blue-text {  // blue used for links so careful not to confuse
+        color: $blue;
+}
+.gold-text {
+        color: $gold;
+}
+
+
+
+
 // header
 header {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d3584+0,2d3584+50,ffffff+50,ffffff+100 */
