@@ -419,6 +419,11 @@ header {
 
 // testimonials page
 .view-testimonialview {
+        .views-column {
+                border-bottom: 1px solid #eaa02e;
+                padding-bottom: 35px;
+                margin-bottom: 25px;
+        }
         .views-field.views-field-field-person-title {
                 display: inline-block;
                 float: left;
