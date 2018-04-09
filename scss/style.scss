@@ -428,6 +428,9 @@ header {
                 display: inline-block;
                 float: left;
                 margin-bottom: 10px;
+                h2 {
+                        margin-bottom: 5px;
+                }
         }
         .views-field.views-field-field-person-title:after {
                 content: "|";

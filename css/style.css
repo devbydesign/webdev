@@ -6773,6 +6773,8 @@ header {
   display: inline-block;
   float: left;
   margin-bottom: 10px; }
+  .view-testimonialview .views-field.views-field-field-person-title h2 {
+    margin-bottom: 5px; }
 
 .view-testimonialview .views-field.views-field-field-person-title:after {
   content: "|";
