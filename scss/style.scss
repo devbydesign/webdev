@@ -393,3 +393,22 @@ header {
                 }
         }
 }
+
+
+// testimonials page
+.view-testimonialview {
+        .views-field.views-field-field-person-title {
+                display: inline-block;
+                float: left;
+                margin-bottom: 10px;
+        }
+        .views-field.views-field-field-person-title:after {
+                content: "|";
+                padding: 0px 12px 0px 8px;
+        }
+
+        .views-field.views-field-field-date {
+                margin-top: 10px;
+                display: block;
+        }
+}
