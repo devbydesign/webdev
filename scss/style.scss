@@ -76,6 +76,13 @@ h3 {
         color: $blue;
 }
 
+h4 {
+
+}
+h5 {
+        font-weight: bold;
+}
+
 // header
 header {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d3584+0,2d3584+50,ffffff+50,ffffff+100 */
@@ -365,6 +372,11 @@ header {
                 float: left;
                 margin: 20px 20px 50px 0px;
                 height: 100%;
+                @media screen and (max-width: 768px) {
+                        margin-bottom: 30px;
+                        margin-left: auto;
+                        margin-right: auto;
+                }
         }
         .views-row {
                 display: flex;
