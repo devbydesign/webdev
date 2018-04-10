@@ -6601,7 +6601,7 @@ button.navbar-toggle {
   border: 2px solid gray;
   border-radius: 8px; }
   button.navbar-toggle:active {
-    background: #8a8991; }
+    background: #e5e5e5; }
 
 @media screen and (max-width: 768px) {
   .navbar-toggle .icon-bar {

@@ -12,6 +12,8 @@ $darkgray: #4f4a5f;
 $darkgray: #444444; // no color tint version
 $medgray: #615f72;
 $lightgray: #888498;
+$xlightgray: #e5e5e5;
+
 
 // slightly less colorized
 $darkgray: #515058; // no color tint version
@@ -176,7 +178,7 @@ button.navbar-toggle {
         border: 2px solid gray;
         border-radius: 8px;
         &:active {
-                background: $lightgray;
+                background: $xlightgray;
         }
 }
 @media screen and (max-width: 768px) {
