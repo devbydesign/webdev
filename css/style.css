@@ -6623,6 +6623,10 @@ button.navbar-toggle {
   #navbar > .container {
     border-left: 7px solid #eaa02e; }
 
+@media screen and (max-width: 767px) {
+  .nav-container #navbar-collapse {
+    margin-top: -6px; } }
+
 .container > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
