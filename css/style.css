@@ -6613,6 +6613,10 @@ button.navbar-toggle {
   -moz-transform: skewX(-10deg);
   -ms-transform: skewX(-10deg);
   transform: skewX(-10deg); }
+  @media screen and (max-width: 768px) {
+    #navbar {
+      width: 90%;
+      margin-right: 0px !important; } }
   #navbar > .container {
     border-left: 7px solid #eaa02e; }
 
