@@ -162,7 +162,7 @@ header {
                         border-bottom: 5px solid $lightindigo;
                         @media screen and (max-width: 768px) {
                                 border-bottom: none;
-                                background: $lightgray;
+                                background: $medgray;
                         }
 
 
@@ -175,6 +175,14 @@ header {
 button.navbar-toggle {
         border: 2px solid gray;
         border-radius: 8px;
+        &:active {
+                background: $lightgray;
+        }
+}
+@media screen and (max-width: 768px) {
+        .navbar-toggle .icon-bar {
+                background: $darkgray;
+        }
 }
 
 

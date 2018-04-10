@@ -6595,11 +6595,17 @@ header {
       @media screen and (max-width: 768px) {
         .nav-container .main-navigation li.active-trail {
           border-bottom: none;
-          background: #8a8991; } }
+          background: #515058; } }
 
 button.navbar-toggle {
   border: 2px solid gray;
   border-radius: 8px; }
+  button.navbar-toggle:active {
+    background: #8a8991; }
+
+@media screen and (max-width: 768px) {
+  .navbar-toggle .icon-bar {
+    background: #515058; } }
 
 #navbar {
   background: #fff;
