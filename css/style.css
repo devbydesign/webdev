@@ -6589,13 +6589,13 @@ header {
       padding: 15px 40px 10px; }
     .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
     .nav-container .main-navigation li.active-trail, .nav-container .main-navigation li:hover {
-      background: #515058; }
+      background: #63636b; }
     .nav-container .main-navigation li.active-trail {
       border-bottom: 5px solid #9ea0cd; }
       @media screen and (max-width: 767px) {
         .nav-container .main-navigation li.active-trail {
           border-bottom: none;
-          background: #515058; } }
+          background: #63636b; } }
 
 button.navbar-toggle {
   border: 2px solid gray;
