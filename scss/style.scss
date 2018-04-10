@@ -195,9 +195,13 @@ button.navbar-toggle {
         -moz-transform: skewX(-10deg);
         -ms-transform: skewX(-10deg);
         transform: skewX(-10deg);
+        @media screen and (max-width: 1024px) {
+                width: 93%;
+                margin-right: 0px!important;
+        }
         @media screen and (max-width: 767px) {
                 width: 90%;
-                margin-right: 0px!important;
+                //margin-right: 0px!important;
         }
         & > .container {
                 border-left: 7px solid $gold;
