@@ -103,7 +103,7 @@
     <div class="nav-container">
             <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
               <div class="navbar-collapse collapse" id="navbar-collapse">
-                <nav role="navigation" class="main-navigation">
+                <nav role="navigation" id="main-navigation" class="main-navigation">
                   <?php if (!empty($primary_nav)): ?>
                     <?php print render($primary_nav); ?>
                   <?php endif; ?>

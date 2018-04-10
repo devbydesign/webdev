@@ -6571,6 +6571,10 @@ header {
   margin-left: auto;
   margin-right: auto;
   height: 50px; }
+  @media screen and (max-width: 768px) {
+    .nav-container {
+      height: auto;
+      border-top: 6px solid #515058; } }
   .nav-container #navbar-collapse {
     max-width: 1200px;
     margin-left: auto;
@@ -6588,6 +6592,14 @@ header {
       background: #515058; }
     .nav-container .main-navigation li.active-trail {
       border-bottom: 5px solid #9ea0cd; }
+      @media screen and (max-width: 768px) {
+        .nav-container .main-navigation li.active-trail {
+          border-bottom: none;
+          background: #8a8991; } }
+
+button.navbar-toggle {
+  border: 2px solid gray;
+  border-radius: 8px; }
 
 #navbar {
   background: #fff;

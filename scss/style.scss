@@ -134,6 +134,10 @@ header {
         margin-left: auto;
         margin-right: auto;
         height: 50px;
+        @media screen and (max-width: 768px) {
+                height: auto;
+                border-top: 6px solid $darkgray;
+        }
         #navbar-collapse {
                 max-width: 1200px;
                 margin-left: auto;
@@ -156,10 +160,23 @@ header {
                 }
                 li.active-trail {
                         border-bottom: 5px solid $lightindigo;
+                        @media screen and (max-width: 768px) {
+                                border-bottom: none;
+                                background: $lightgray;
+                        }
+
+
                 }
 
         }
 }
+
+// mobile menu
+button.navbar-toggle {
+        border: 2px solid gray;
+        border-radius: 8px;
+}
+
 
 //skew edge of navbar-header container
 #navbar {
