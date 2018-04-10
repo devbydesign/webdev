@@ -136,7 +136,7 @@ header {
         margin-left: auto;
         margin-right: auto;
         height: 50px;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 767px) {
                 height: auto;
                 border-top: 6px solid $darkgray;
         }
@@ -162,7 +162,7 @@ header {
                 }
                 li.active-trail {
                         border-bottom: 5px solid $lightindigo;
-                        @media screen and (max-width: 768px) {
+                        @media screen and (max-width: 767px) {
                                 border-bottom: none;
                                 background: $medgray;
                         }
@@ -181,7 +181,7 @@ button.navbar-toggle {
                 background: $xlightgray;
         }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
         .navbar-toggle .icon-bar {
                 background: $darkgray;
         }
@@ -195,7 +195,7 @@ button.navbar-toggle {
         -moz-transform: skewX(-10deg);
         -ms-transform: skewX(-10deg);
         transform: skewX(-10deg);
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 767px) {
                 width: 90%;
                 margin-right: 0px!important;
         }

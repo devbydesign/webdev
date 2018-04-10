@@ -6571,7 +6571,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   height: 50px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .nav-container {
       height: auto;
       border-top: 6px solid #515058; } }
@@ -6592,7 +6592,7 @@ header {
       background: #515058; }
     .nav-container .main-navigation li.active-trail {
       border-bottom: 5px solid #9ea0cd; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 767px) {
         .nav-container .main-navigation li.active-trail {
           border-bottom: none;
           background: #515058; } }
@@ -6603,7 +6603,7 @@ button.navbar-toggle {
   button.navbar-toggle:active {
     background: #e5e5e5; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar-toggle .icon-bar {
     background: #515058; } }
 
@@ -6613,7 +6613,7 @@ button.navbar-toggle {
   -moz-transform: skewX(-10deg);
   -ms-transform: skewX(-10deg);
   transform: skewX(-10deg); }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     #navbar {
       width: 90%;
       margin-right: 0px !important; } }
