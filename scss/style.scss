@@ -160,6 +160,9 @@ header {
                 a {
                         color: #fff;
                         padding: 15px 40px 10px;
+                        @media screen and (max-width: 767px) {
+                                padding: 15px 40px;
+                        }
                 }
                 .nav > li > a:hover, .nav > li > a:focus,
                 li.active, li:hover {

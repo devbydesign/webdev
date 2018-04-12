@@ -6587,6 +6587,9 @@ header {
     .nav-container .main-navigation a {
       color: #fff;
       padding: 15px 40px 10px; }
+      @media screen and (max-width: 767px) {
+        .nav-container .main-navigation a {
+          padding: 15px 40px; } }
     .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
     .nav-container .main-navigation li.active, .nav-container .main-navigation li:hover {
       background: #63636b; }
