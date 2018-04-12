@@ -162,11 +162,11 @@ header {
                         padding: 15px 40px 10px;
                 }
                 .nav > li > a:hover, .nav > li > a:focus,
-                li.active-trail, li:hover {
+                li.active, li:hover {
                         background: $medgray;
                         //border-bottom: 5px solid $medgray;
                 }
-                li.active-trail {
+                li.active {
                         border-bottom: 5px solid $lightindigo;
                         @media screen and (max-width: 767px) {
                                 border-bottom: none;
@@ -232,7 +232,9 @@ button.navbar-toggle {
 .navbar-collapse.collapse {
         background: $darkgray;
 }
-
+.navbar-nav {
+        margin: 0px -15px 7.5px;
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {

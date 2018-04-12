@@ -6588,12 +6588,12 @@ header {
       color: #fff;
       padding: 15px 40px 10px; }
     .nav-container .main-navigation .nav > li > a:hover, .nav-container .main-navigation .nav > li > a:focus,
-    .nav-container .main-navigation li.active-trail, .nav-container .main-navigation li:hover {
+    .nav-container .main-navigation li.active, .nav-container .main-navigation li:hover {
       background: #63636b; }
-    .nav-container .main-navigation li.active-trail {
+    .nav-container .main-navigation li.active {
       border-bottom: 5px solid #9ea0cd; }
       @media screen and (max-width: 767px) {
-        .nav-container .main-navigation li.active-trail {
+        .nav-container .main-navigation li.active {
           border-bottom: none;
           background: #63636b; } }
 
@@ -6638,6 +6638,9 @@ button.navbar-toggle {
 
 .navbar-collapse.collapse {
   background: #515058; }
+
+.navbar-nav {
+  margin: 0px -15px 7.5px; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background: #4a4b94; }
