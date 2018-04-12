@@ -6598,7 +6598,9 @@ header {
       @media screen and (max-width: 767px) {
         .nav-container .main-navigation li.active {
           border-bottom: none;
-          background: #63636b; } }
+          background: #63636b;
+          border-left: 5px solid #9ea0cd;
+          padding: 15px 40px 15px 35px; } }
 
 button.navbar-toggle {
   border: 2px solid gray;
