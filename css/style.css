@@ -6564,6 +6564,9 @@ header {
   color: #515058;
   font-weight: bold;
   font-size: 30px; }
+  @media screen and (max-width: 320px) {
+    .navbar-brand {
+      font-size: 26px; } }
 
 .nav-container {
   margin-bottom: 30px;
@@ -6606,6 +6609,9 @@ header {
 button.navbar-toggle {
   border: 2px solid gray;
   border-radius: 8px; }
+  @media screen and (max-width: 320px) {
+    button.navbar-toggle {
+      margin-right: 10px; } }
   button.navbar-toggle:active {
     background: #e5e5e5; }
 
