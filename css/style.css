@@ -6564,7 +6564,7 @@ header {
   color: #515058;
   font-weight: bold;
   font-size: 30px; }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 375px) {
     .navbar-brand {
       font-size: 26px; } }
 
